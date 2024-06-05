@@ -7,6 +7,5 @@ services:
       - odoo-web-data:/var/lib/odoo
       - ./config:/etc/odoo
       - ./addons:/mnt/extra-addons
-
 volumes:
   odoo-web-data:
